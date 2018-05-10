@@ -1,3 +1,46 @@
 body {
-    background-color: #00cae4;
+    background-color: #2db2df;
 }
+
+html {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.timeline {
+    background-color: grey;
+    width: 100%;
+    height: 233px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details {
+    width: 100%;
+    height: 466px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information {
+    background-color: blanchedalmond;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    background-color: black;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
