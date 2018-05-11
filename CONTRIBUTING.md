@@ -12,7 +12,10 @@
 
 This repository was build as a code for a closed Udacity project. 
 Contributors, co-developers:
-Jennifer Horvath , Aniko Safar, Krisztian Hackl, Benedek Tabori, Zsofia Papp, Dora Lencse, Tibor Meszaros, Gergo Kiss.
+JS timeline team: Jennifer Horvath , Attila Fiel, Zsolt Biro (team leader)
+Database structure: Aniko Safar, Krisztian Hackl, Tibor Meszaros (team leader) , 
+Project leader : Benedek Tabori.
+Background, media, design:  Zsofia Papp, Gergo Kiss, Benedek Tabori, Dora Lencse Adam Kegler (team leader).
 You can contribute in development by sending application to one of the authors [Authors](#authors).
 
 ## Copyrights
