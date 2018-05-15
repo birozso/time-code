@@ -44,3 +44,33 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid rgb(97, 96, 96);
+    border-bottom: 0px;
+    cursor: cell;
+}
+
+table {
+    width: 100%;
+    /* width: 100px; tesztre */
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 80px;
+}
+
+td {
+    width: 40px;   
+}
+
+th {
+    text-align: left;
+    width: 60px;
+}
