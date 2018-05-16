@@ -4,21 +4,30 @@ mainHeader.style.backgroundColor = 'red';
 
 const kanvas = document.getElementById('timeLine');
 
+kanvas.style.width = '600px';
 
-function myFunction(event) {
-    event.preventDefault();
-    let y = event.deltaY;
-    let currentSize = event.target.style.width;
-    if (y > 0) {
-      newSize = parseInt(currentSize) + 10;
-    } else {
-      newSize = parseInt(currentSize) - 10;
-    }
-    event.target.style.width = newSize + "px";
 
-}
 
-kanvas.addEventListener("wheel" , myFunction(event));
+kanvas.addEventListener("wheel" , function(event) {
+  event.preventDefault();
+  let y = event.deltaY;
+  let currentSize = kanvas.style.width;
+  if (y > 0) {
+    newSize = parseInt(currentSize) + 100;
+  } else {
+    newSize = parseInt(currentSize) - 100;
+  }
+
+  if (newSize > 2199) {
+    newSize = 2200;
+  }
+  else if (newSize < 199) {
+    newSize = 200;
+  }
+
+  kanvas.style.width = newSize + "px";
+
+});
 
 function makeGrid(row,heigh) {
     let i=0;
