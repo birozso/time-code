@@ -13,7 +13,7 @@ header {
 }
 
 .timeline {
-    background-color: grey;
+    background-color: rgb(201, 217, 245);
     width: 100%;
     height: 233px;
     display: flex;
@@ -55,15 +55,14 @@ td {
     cursor: cell;
 }
 
-table {
+#timeLine {
     width: 100%;
-    /* width: 100px; tesztre */
     border-collapse: collapse;
     margin: 0 auto;
 }
 
 tr {
-    height: 80px;
+    height: 40px;
 }
 
 td {
@@ -73,4 +72,5 @@ td {
 th {
     text-align: left;
     width: 60px;
+    height: 80px;
 }
